@@ -1,0 +1,66 @@
+#main-doc {
+  
+}
+
+#navbar {
+  
+}
+
+/* User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user. */
+/* User Story #15: My Technical Documentation page should use at least one media query. */
+@media (min-width: 640px) {
+  #navbar {
+    position: fixed;
+    width: 300px;
+  }
+  .main-section {
+    margin-left: 300px;
+  }
+}
+
+#navbar ul {
+  padding-left: 5px;
+}
+
+#navbar ul li {
+  list-style-type: none;
+  margin: 5px 0 5px 0;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #222222;
+}
+
+.nav-link:hover {
+  color: #555555;
+}
+
+.nav-link:active {
+  color: #777777;
+}
+
+.main-section {
+  
+}
+
+#introduction {
+  
+}
+
+#what_you_should_already_know {
+  
+}
+
+#javascript_and_java {
+  
+}
+
+#hello_world {
+  
+}
+
+#variables {
+  
+}

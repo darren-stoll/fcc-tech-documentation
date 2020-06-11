@@ -1,0 +1,92 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<head>
+</head>
+<body>
+  <!-- User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation). -->
+  <main id="main-doc">
+    <!-- User Story #8: I can see a nav element with a corresponding id="navbar". -->
+    <nav id="navbar">
+      <!-- User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation. -->
+      <!-- User Story #11: The header element in the navbar must come before any link (a) elements in the navbar. -->
+      <header>
+        <h1>Tech doc</h1>
+      </header>
+      <!-- User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section. -->
+      <ul>
+        <!-- User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world"). -->
+        <!-- User Story #13: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header. -->
+        <li><a class="nav-link" href="#introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#what_you_should_already_know">What you should already know</a></li>
+        <li><a class="nav-link" href="#javascript_and_java">JavaScript and Java</a></li>
+        <li><a class="nav-link" href="#hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#variables">Variables</a></li>
+      </ul>
+    </nav>
+    
+    <!-- User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5. -->
+    <!-- User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java"). -->
+    <section class="main-section" id="introduction" name="introduction">
+      <!-- User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section. -->
+      <header>
+        <h2>Introduction</h2>
+      </header>
+        <!-- User Story #5: The .main-section elements should contain at least 10 p elements total (not each). -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla sem, faucibus a tempus eu, efficitur sit amet quam. Cras non efficitur elit, ut facilisis orci. Fusce nec venenatis eros. Donec tempus vulputate nisi, vitae aliquam mauris consequat eu. Vestibulum porttitor felis a tincidunt finibus.</p>
+      <!-- User Story #6: The .main-section elements should contain at least 5 code elements total (not each). -->
+      <code>code 1</code>
+      <p>Praesent leo ipsum, tempus eu eleifend nec, placerat ut dolor. Aliquam egestas faucibus tincidunt. Aliquam vehicula convallis erat sed venenatis. Mauris sagittis risus non ullamcorper malesuada. Duis rhoncus dapibus magna, at suscipit lectus aliquam in. Integer laoreet aliquam ex eu sodales. Integer semper odio in ante commodo fermentum.</p>
+      <p>Nunc quis sapien at felis luctus accumsan. Maecenas varius malesuada massa, quis ornare ante mattis semper. Nullam ac neque vitae leo luctus luctus ac vel massa.</p>
+      <p>You will learn how to do the following:</p>
+      <!-- User Story #7: The .main-section elements should contain at least 5 li items total (not each). -->
+      <ul>
+        <li>Lorem</li>
+        <li>ipsum</li>
+        <li>dolor</li>
+        <li>sit</li>
+        <li>amet</li>
+      </ul>
+    </section>
+    <section class="main-section" id="what_you_should_already_know" name="what_you_should_already_know">
+      <header>
+        <h2>What you should already know</h2>
+      </header>
+      <p>Maecenas porttitor sagittis mauris, id consequat lorem tristique in. Cras venenatis libero vel vehicula commodo.</p>
+      <code>code 2</code>
+    </section>
+    <section class="main-section" id="javascript_and_java" name="javascript_and_java">
+      <header>
+        <h2>JavaScript and Java</h2>
+      </header>
+      <p>Praesent rhoncus magna id nisl volutpat, vitae elementum turpis bibendum. Morbi ac risus a leo hendrerit laoreet a at dui. Mauris sagittis blandit dolor aliquam condimentum. Vestibulum sit amet pretium eros.</p>
+      <code>code 3</code>
+      <p>Fusce vitae mi augue. Ut finibus porttitor massa scelerisque semper. Praesent bibendum, ligula sit amet posuere imperdiet, risus dui volutpat neque, dignissim luctus massa nisi non lacus. Cras dapibus porttitor erat, vitae suscipit justo ullamcorper vitae. Mauris a magna ut ante congue cursus. Ut tristique tortor nisi, et ultricies metus volutpat et. Vestibulum condimentum lacinia ipsum eu mollis.</p>
+
+    </section>
+    <section class="main-section" id="hello_world" name="hello_world">
+      <header>
+        <h2>Hello world</h2>
+      </header>
+      <code>code 4</code>
+      <p>Sed vel dolor quis purus dictum vestibulum. Nullam interdum tortor nisi, sed vulputate mauris venenatis et. Aliquam maximus nisi orci, vel blandit mauris elementum a. Aliquam erat volutpat. Aliquam erat volutpat. Morbi elementum mauris sit amet tellus euismod commodo. Praesent maximus nunc scelerisque condimentum congue.</p>
+      <p>Fusce non congue mauris. Ut fringilla aliquet ornare. Integer tristique magna tortor, sit amet condimentum purus ullamcorper eu. Ut iaculis condimentum elit. Duis non tellus non neque fringilla tristique. Donec efficitur odio ultricies nisi sollicitudin consectetur.</p>
+    </section>
+    <section class="main-section" id="variables" name="variables">
+      <header>
+        <h2>Variables</h2>
+      </header>
+      <p>Vivamus vestibulum enim quis elit convallis rutrum. Vestibulum vel nibh et tellus aliquam pulvinar accumsan vitae ipsum. Quisque lorem quam, varius non elementum nec, fermentum id nisl.</p>
+      <code>code 5</code>
+      <p>Proin tempus elementum nisl, a consequat velit bibendum vel. Cras sodales, ligula ut pretium porttitor, nisl neque sodales eros, eget lacinia orci leo at ex. Aliquam non facilisis nisi. Donec ac volutpat quam.</p>
+    </section>
+  </main>
+</body>
